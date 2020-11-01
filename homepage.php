@@ -19,7 +19,7 @@
   <body>
 <!--navigation-->
 
-      <div><?php include "template/navigation.php";?></div><br/>
+<!--      <div><?php include "template/navigation.php";?></div><br/>-->
       
 <!-- content-->
       
