@@ -31,7 +31,7 @@
         
         $listeGenres= $sth->fetchAll(PDO::FETCH_ASSOC);
               			foreach ($listeGenres as $grow => $genre){                       
-              			    echo '<div class="col-lg-2 col-md-4 col-sm-12 page-header">';
+              			    echo '<div class="col-lg-3 col-md-4 col-sm-12 page-header">';
 						    echo '<h1>';
 						    echo $genre["genre"];
 						    echo '</h1>';
@@ -57,7 +57,7 @@
         $sth->execute($param);           
         $result = $sth->fetchAll(PDO::FETCH_ASSOC);   
 				foreach ($result as $row => $livre) {
-                    echo '<div class="col-lg-10 col-md-8 col-sm-12 meslivres">';
+                    echo '<div class="col-lg-9 col-md-8 col-sm-12 meslivres">';
 						echo '<div class="card livrecard">';
 						    echo '<img class="card-img-top" src="uploads/'.$livre['logo_livre'].  
                                 '" alt="Card image cap">';            
