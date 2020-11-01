@@ -1,0 +1,185 @@
+html{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:62.5%;
+    margin:0px;
+    padding:0px;
+    font-family:verdana,sans-serif;   
+}
+
+/*-----header--navigation--------------------*/
+
+
+header{
+    position: fixed;
+    height:15%;
+    z-index: 700;
+    background-color: #ffffff;
+    width:100%;
+}
+.menu{
+    position:relative;
+    font-size:1.2rem;
+    color:black;
+/*    top:4rem;*/
+    padding: 10%;
+}
+.menu:hover{
+/*    text-decoration: none;*/
+    color:red;
+}
+header  ul  li {
+    width:150%;
+    font-size:0.8rem;
+    margin: 3% 0% 5% 0%;
+    position:relative;
+    left:-34%;        
+}
+
+header ul:hover li{
+    background-color:RGBa(22,57,38,0.15);
+}
+header  ul  li:hover a{
+    color:#000000;   
+}
+
+header .nav-list{
+    list-style: none;   
+}
+
+.menu , ul a{
+    position:relative;
+    top: 40%;
+}
+
+/* -----------content----------------------*/
+.in_out{
+    position: fixed;
+    z-index:800;
+    margin-left:5%;
+
+}
+.prec{
+    height:15rem;
+    position:relative;
+   
+}
+.livrecard{
+    box-shadow:10px 10px  5px green ;
+    border-radius: 15px;
+    height:100%;
+}
+.livrecard img{
+    width: 15%;   
+}
+
+.contentlivre{
+     /*ceci s'applique aussi sur la page livre.php*/
+    margin-top: 7%; 
+}
+                /*----carroussel----*/
+.carroussel{
+    background:url(../images/deepread5.jpg) fixed;
+    height:25%;
+    position:relative;   
+}
+.carroussel h1{
+    font-family: monospace;
+    color:coral;
+    border-bottom:dotted #ffffff; 
+}
+
+
+
+
+
+/*-----------content----livre.php---------------------------*/
+
+.texte_color{
+    color:#ffffff;
+}
+P.titre{
+    font-size: 2rem;
+   
+}
+P.auteur{
+    font-size:2rem;
+    margin-bottom:5%;   
+}
+.descript{
+    font-size: 2rem;
+}
+#description{
+    height: 150%;
+    background-color:white;
+}
+
+p.editeur{
+    
+}
+#arrire_plan_livres{
+    background-color: black;
+}
+.Empreinter{
+    margin-top: 15rem;
+}
+
+/*---------*/
+
+
+
+
+
+.hermes{
+    background-image: url(../images/imhotep.jpg);
+    height:100%;
+    margin-top:8rem;
+}
+#hermes{
+    color:white;
+    width: 25%;
+    height: 80%;
+    box-shadow:1px  1px 10px  10px dodgerblue ;
+    border-radius: 15px;
+/*    margin-left: 33%;*/
+    font-size: 2rem;
+    position: relative;
+    left: 34%;
+    top: 23%;
+    
+}
+h1.thot{
+    font-size: 3rem;
+    margin-left: 33%;
+    color:dodgerblue;
+    margin-bottom:8%;
+   
+   
+}
+h1.thot:hover{
+    color: coral;   
+}
+p.text-thot{
+    margin-top: 10%;
+    font-size:1rem;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
