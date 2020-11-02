@@ -6,15 +6,12 @@
     <title>FIRSTMODIFY</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-    
-    <!--  debut  ceci pour l'instant s'applique sur content.php    -->
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- jQuery UI library -->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!--  fin    -->
-      <link rel="stylesheet" href="css/user.css" />  
+    <link rel="stylesheet" href="css/user.css" />  
   </head>
   <body>
 <!--navigation-->

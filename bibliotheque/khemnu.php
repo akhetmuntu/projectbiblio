@@ -21,7 +21,6 @@
       
       
       
-<!--
       <div class ="hermes">
       <h1 class="thot">khemnu-bibliothèque</h1>
       <div id="hermes">
@@ -32,7 +31,6 @@
           
              
     </div>
--->
 <!--      <img src="../images/imhotep.jpg"/>-->
       
  
