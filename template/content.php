@@ -9,19 +9,7 @@
     <div class="prec"></div>
     <div class="slider"> 
         <div class="row" >
-            <script>      
-                $( document ).ready(function() {
-                    $("#search_livre").on('input',function(){alert('ok');}); 
-	                $("#search_livre").autocomplete({
-			                source: "livre/livreapi.php",
-			                select: function( event, ui ) {
-					                event.preventDefault();
-					                $("#search_livre").val(ui.item.value);
-			                }
-
-	                });
-                });
-            </script>
+            
     
 <?php   
     include "includes/connexiondb.php";   

@@ -39,11 +39,9 @@
         
 <!--  mes liens    -->
    
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!--        <script src="js/jquery.min.js"></script>-->
 <!--        <script src="js/jquery.color-2.1.2.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 <!--        <script src="js/site.js"></script>-->
         <script src="js/homepage.js"></script>

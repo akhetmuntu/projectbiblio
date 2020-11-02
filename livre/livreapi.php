@@ -15,8 +15,8 @@ include "../includes/connexiondb.php";
       if($i>0)$json .=",";
        $json .="{";
         $livreList[]=$livre;
-        $json .='"id_livre":"'.$livre['id_livre'].'"';
-        $json .=',"titre":"'.$livre['titre'].'"';
+        $json .='"id":"'.$livre['id_livre'].'"';
+        $json .=',"value":"'.$livre['titre'].'"';
        $json .="}";
       $i++;
      }
