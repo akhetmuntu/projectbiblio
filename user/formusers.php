@@ -1,4 +1,5 @@
 <?php
+echo "eeeee";
 include "../includes/connexiondb.php";
 /*include"../security/secure.php";*/			
 		if(@$_GET['id']!=""){
@@ -56,12 +57,19 @@ include "../includes/connexiondb.php";
 <!-----------------------------------------------------------------mail -->            
             <div class="col-lg-6 col-md-4 col-ms-12">
                 <label for="mail">Email : </label>
-                <input type="email" id="mail" name="mail">
+                <input type="email" id="email" name="mail">
+				<span id='error_email' style="color:red"> </span>
             </div>
 <!-----------------------------------------------------------------pass -->                  
             <div class="col-lg-6 col-md-4 col-ms-12">
-                <label for="pass">Mots de passe: </label>
-                <input type="password" id="pass" name="pass">
+                <label for="pass">Mot de passe: </label>
+                <input type="password" id="password" name="pass">
+				<span id='error_password' style="color:red"> </span>
+            </div>
+			<div class="col-lg-6 col-md-4 col-ms-12">
+                <label for="pass">Retappez le mot de passe: </label>
+                <input type="repassword" id="repassword" name="repass">
+				<span id='error_repassword' style="color:red"> </span>
             </div>
 <!-----------------------------------------------------------------age -->              
             <div class="col-lg-6 col-md-4 col-ms-12">

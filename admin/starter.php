@@ -292,8 +292,9 @@
 	      include "../includes/functions.php";
 		  include "../includes/define.php";
 	        @$page=securisation($_GET["page"]);
-          
+			//echo $route[$page].'-------';
 			if(file_exists(@$route[$page])){
+				//echo $route[$page];
 				include $route[$page];
 			}
 		   /*	if($page=="livre"){

@@ -56,7 +56,7 @@ $route=["auteurlist"=>"../auteur/auteurlist.php",
         "createusers"=>"../user/createusers.php",
         "deleteuser"=>"../user/deleteuser.php",
         "formupdateuser"=>"../user/formupdateuser.php",
-        "formusers"=>"../user/formusers/php",
+        "formusers"=>"../user/formusers.php",
         "userliste"=>"../user/usersliste.php",
         
         
